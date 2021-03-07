@@ -1,13 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
   <head>
     <meta charset="utf-8">
     <title>Contact me</title>
   </head>
+
   <body>
     <h1>My Contact Info</h1>
     <p>My Fictional Address</p>
     <p>999999999</p>
-    <p>email@gmail.com</p>  
+    <p>email@gmail.com</p>
+    <hr>
+    <form action="mailto:rustydigger@gmail.com" method="post" enctype="text/plain">
+      <Label>Your Name:</Label>
+      <input type="text" name="yourName" value=""><br>
+      <Label>Your Email:</Label>
+      <input type="email" name="yourEmail"><br>
+      <Label>Your Message:</Label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit">
+    </form>
   </body>
 </html>
